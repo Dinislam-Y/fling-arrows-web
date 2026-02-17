@@ -40475,7 +40475,7 @@ K(a){var s=A.cX(a,B.b8,t.J)
 s.toString
 return new A.yL(new A.a3B(s,A.ce(a,!0,t.c).gea()),null,t.Ht)}}
 A.a3B.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=B.n.e6(b.a,0,b.b-1),h=$.jn()[i].e,g=this.a,f=h.adn(g),e=b.c.gep()
+$2(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=B.n.e6(b.a-1,0,b.b-1),h=$.jn()[i].e,g=this.a,f=h.adn(g),e=b.c.gep()
 e=e.jg(e,new A.a3z())
 s=e.gD(e)
 r=B.f.aF(s/50*100)
@@ -40536,7 +40536,7 @@ a5k(){var s,r,q,p=this.c
 p.toString
 s=A.ce(p,!1,t.Fc).c
 if(!(s instanceof A.aX))return
-r=B.n.d4(s.a.a,5)*88-200
+r=B.n.d4(s.a.a-1,5)*88-200
 p=this.d
 p===$&&A.d()
 q=p.f
@@ -40567,13 +40567,13 @@ A.SY.prototype={
 K(a){var s=null,r=B.f.kC(this.d/5)
 return new A.nt(88,new A.Nq(new A.ajG(this),r,!0,!0,!0,A.aNY(),s),B.JU,B.aQ,!1,this.c,s,s,!1,s,r,B.ac,s,s,B.ab,B.ay,s)}}
 A.ajG.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l=b*5,k=this.a,j=Math.min(l+5,k.d)-l,i=J.qc(j,t.S)
-for(s=0;s<j;++s)i[s]=l+s
+$2(a,b){var s,r,q,p,o,n,m,l,k=b*5,j=this.a,i=Math.min(k+5,j.d)-k,h=J.qc(i,t.S)
+for(s=0;s<i;++s)h[s]=k+s
 r=A.b([],t.p)
-for(q=i.length,p=k.e,k=k.f,o=0;o<q;++o){n=i[o]
-m=k.i(0,n)
-if(m==null)m=0
-r.push(new A.SZ(n,m,n>p,n===p,null))}for(k=5-j,s=0;s<k;++s)r.push(B.a0G)
+for(q=h.length,p=j.e,o=p-1,j=j.f,n=0;n<q;++n){m=h[n]
+l=j.i(0,m)
+if(l==null)l=0
+r.push(new A.SZ(m,l,m>=p,m===o,null))}for(j=5-i,s=0;s<j;++s)r.push(B.a0G)
 return A.hR(r,B.U,B.hW,B.aL)},
 $S:208}
 A.SZ.prototype={
